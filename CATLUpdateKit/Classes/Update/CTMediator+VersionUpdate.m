@@ -9,14 +9,14 @@
 
 @implementation CTMediator (VersionUpdate)
 
-- (UIView*)configUpdateDescContentText:(NSString *)text andIsMustUpdate:(BOOL)isMustUpdate withAppId:(NSString *)appId {
+- (UIView *)showUpdateDescContentText:(NSString *)text andIsMustUpdate:(BOOL)isMustUpdate withAppId:(NSString *)appId {
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     [dic setValue:text forKey:@"Message"];
     [dic setValue:@(isMustUpdate) forKey:@"Must"];
     [dic setValue:appId forKey:@"APPID"];
     
     // 测试
-    [self performTarget:@"CATLVersionUpdateView" action:@"CATLVersionShowUpdateNoticeView" params:dic shouldCacheTarget:NO];
+    return [self performTarget:@"CATLVersionUpdateView" action:@"CATLVersionShowUpdateNoticeView" params:dic shouldCacheTarget:NO];
 }
 
 @end

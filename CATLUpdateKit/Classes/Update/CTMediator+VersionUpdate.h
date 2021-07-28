@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (VersionUpdate)
-- (UIView*)configUpdateDescContentText:(NSString *)text andIsMustUpdate:(BOOL)isMustUpdate withAppId:(NSString*)appId;
+- (UIView*)showUpdateDescContentText:(NSString *)text andIsMustUpdate:(BOOL)isMustUpdate withAppId:(NSString*)appId;
 @end
 
 NS_ASSUME_NONNULL_END
