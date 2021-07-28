@@ -1,0 +1,6 @@
+framework module CATLUpdateKit {
+  umbrella header "CATLUpdateKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

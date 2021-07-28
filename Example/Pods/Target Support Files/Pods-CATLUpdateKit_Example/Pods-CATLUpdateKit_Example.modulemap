@@ -1,0 +1,6 @@
+framework module Pods_CATLUpdateKit_Example {
+  umbrella header "Pods-CATLUpdateKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

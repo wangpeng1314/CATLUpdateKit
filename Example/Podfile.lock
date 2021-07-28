@@ -1,0 +1,27 @@
+PODS:
+  - CATLUpdateKit (0.1.0):
+    - CTMediator
+    - Masonry (~> 1.1.0)
+  - CTMediator (46)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - CATLUpdateKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+    - Masonry
+
+EXTERNAL SOURCES:
+  CATLUpdateKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CATLUpdateKit: c1f2bd595d0b9838280e02f5af88f24708f4658e
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 68a1ee6f5ec895584300b8add40d86bac5654ec5
+
+COCOAPODS: 1.10.1
